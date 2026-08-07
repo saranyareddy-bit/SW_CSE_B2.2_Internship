@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibling Selector | Attribute Selector | Pseudo-class selector |Pseudo-element selector</title>
+    <style>
+        h2+p{
+            color: lightslategrey;
+        }
+        input[type="text"]{
+            border: 2px solid blueviolet;
+        }
+        input:focus{
+            outline: darkcyan;
+        }
+        a:hover{
+            background-color: hotpink;
+        }
+        p::first-letter{
+            font-size: 200%;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Selectors</h2>
+    <p>Sibling Selector: Selects the elements which arenext to eachother</p>
+    <p>One more paragrph</p>
+    <h2>Heading tag</h2>
+    <a href="#">Click here</a>
+    <input type="text" name="" id="" placeholder="Email Username">
+</body>
+</html>
