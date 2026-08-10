@@ -52,12 +52,49 @@
             width: 400px;
             height: 250px;
         }
+        .page{
+            display:grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas: "header header" "sidebar main" "footer footer" ;
+            gap: 10px;
+            background-color: burlywood;
+            min-height: 400px;
+        }
+        .header{
+            grid-area: header;
+            background-color: #867292;
+            color: aliceblue;
+            padding: 15px;
+            text-align: center;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: #d04678;
+            color: aliceblue;
+            padding: 15px;
+            text-align: center;
+        }
+        .main{
+             grid-area:main;
+            background-color: darkorchid;
+            color: aquamarine;
+            padding: 15px;
+            text-align: center;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: cadetblue ;
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <p>CSS Grid: two-dimensional layout system. We can design layouts using rows and columns together.</p>
     <section>
-     <h2>1. Basic Grid {columns,rows,repeat,fr</h2>
+     <h2>1. Basic Grid {columns,rows,repeat,fr}</h2>
      <div class="basic-grid">
         <div class="box">1</div>
         <div class="box">2</div>
@@ -76,6 +113,19 @@
         <div class="box">4</div>
         <div class="box">5</div>
         <div class="box">6</div>
+    </div>
+    </section>
+    
+    <section>
+         <h2>3.Grid template aread(header,sidebar,main,footer)</h2>
+     <div class="page">
+        <header class="header">
+            <div class="">Link1</div>
+            <div class="">Link2</div>
+        </header>
+        <aside class="sidebar">Sidebar</aside>
+        <main class="main">Main Content</main>
+        <footer class="footer">Footer</footer>
     </div>
     </section>
 </body>
