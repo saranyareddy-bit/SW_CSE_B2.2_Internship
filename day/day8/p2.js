@@ -12,9 +12,9 @@ if (true) {
 console.log(message);
 
 // 2 let 
-let name = "Rakesh";
-// let name = "Rakesh"; //not allowed to redeclare with the same name
-name = "Sumanth" //reassign is possible
+let name = "Saranya";
+// let name = "Saranya"; //not allowed to redeclare with the same name
+name = "Sriram" //reassign is possible
 console.log(name)
 
 // // // Scope behavior: let is block-scoped
