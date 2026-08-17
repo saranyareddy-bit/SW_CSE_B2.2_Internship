@@ -105,7 +105,7 @@ const users = [
 
 const user = users.find(student=>student.id === 2);
 console.log(user);
-const index = users.findIndex(student=>student.name === "Bipin");
+const index = users.findIndex(student=>student.name === "Gauri");
 console.log(index);
 
 // Transforming Arrays 🌟
