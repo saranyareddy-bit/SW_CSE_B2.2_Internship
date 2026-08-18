@@ -9,7 +9,7 @@ console.log(hasEven);
 // Sorting and reversing
 // sort
 const nums2 = [10,2,5,20];
-const names = ["Rakesh","Bipin","Suresh","Ankita","Keerthi"];
+const names = ["Saranya","Bipin","Suresh","Ankita","Keerthi"];
 console.log(names);
 console.log(names.sort());
 nums2.sort();
