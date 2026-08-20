@@ -10,6 +10,7 @@ import ThemeProviderDemo from './components/HookTwo';
 
 import SimpleNameForm from './components/FormOne';
 import SignupForm from './components/FormTwo';
+import ValidatedForm from './components/FormThree';
 function App() {
   
 
@@ -24,6 +25,7 @@ function App() {
      {/* <ThemeProviderDemo /> */}
       <SimpleNameForm />
       <SignupForm />
+      <ValidatedForm />
     </>
   )
 }
