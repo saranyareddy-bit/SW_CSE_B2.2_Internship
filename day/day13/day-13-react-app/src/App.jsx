@@ -2,12 +2,14 @@ import { Welcome } from "./components/p1";
 import {ProductCard} from "./components/p2";
 import phone from "./assets/Samsung.jpg";
 import ButtonDemo, { } from "./components/p3"; 
+import Counter from "./components/StateExampleOne";
 import './App.css';
 
 function App() {
 
   return (
     <> 
+    <Counter />
    <Welcome name="Saranya" />
 
       <ButtonDemo />
@@ -18,9 +20,9 @@ function App() {
         //  image="https://m.media-amazon.com/images/I/714QJQZszoL._SX679_.jpg"
         image={phone}
       />   
-    <ButtonDemo />
+    
     </>
-  )
+  );
 }
 
-export default App
+export default App;
