@@ -1,16 +1,17 @@
 
-
+import { WELCOME } from "./components/p1.jsx";
+import Greet from "./components/p2.jsx";
+import { MyMovies } from "./components/p3.jsx";
 function App() {
   
 
   return (
-    <h1>Hello My first react App
-
-      
-    </h1>
-          
-                  
-  )
+    <div>
+    <WELCOME /> 
+    <Greet />
+    <MyMovies />
+    </div>              
+  );
 }
 
 export default App
