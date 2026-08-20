@@ -9,6 +9,7 @@ import UserListHook from './components/HookOne';
 import ThemeProviderDemo from './components/HookTwo';
 
 import SimpleNameForm from './components/FormOne';
+import SignupForm from './components/FormTwo';
 function App() {
   
 
@@ -22,6 +23,7 @@ function App() {
       <UserListHook /> */}
      {/* <ThemeProviderDemo /> */}
       <SimpleNameForm />
+      <SignupForm />
     </>
   )
 }
