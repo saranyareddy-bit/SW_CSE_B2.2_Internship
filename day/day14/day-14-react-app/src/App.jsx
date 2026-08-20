@@ -6,17 +6,19 @@ import ActionButtonDemo from './components/EventHandlerThree';
 import SimpleList from './components/ListAndKeysOne';
 
 import UserListHook from './components/HookOne';
+import ThemeProviderDemo from './components/HookTwo';
 function App() {
   
 
   return (
     <>
-      <ClickDemo />
+     {/* <ClickDemo />
       <FormDemo />
       <ActionButtonDemo />  
 
       <SimpleList />
-      <UserListHook />
+      <UserListHook /> */}
+      <ThemeProviderDemo />
     </>
   )
 }
