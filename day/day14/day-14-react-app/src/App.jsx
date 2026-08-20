@@ -7,6 +7,8 @@ import SimpleList from './components/ListAndKeysOne';
 
 import UserListHook from './components/HookOne';
 import ThemeProviderDemo from './components/HookTwo';
+
+import SimpleNameForm from './components/FormOne';
 function App() {
   
 
@@ -18,7 +20,8 @@ function App() {
 
       <SimpleList />
       <UserListHook /> */}
-      <ThemeProviderDemo />
+     {/* <ThemeProviderDemo /> */}
+      <SimpleNameForm />
     </>
   )
 }
