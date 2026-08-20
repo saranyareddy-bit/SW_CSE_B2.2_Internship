@@ -3,12 +3,14 @@ import {ProductCard} from "./components/p2";
 import phone from "./assets/Samsung.jpg";
 import ButtonDemo, { } from "./components/p3"; 
 import Counter from "./components/StateExampleOne";
+import ToggleText from "./components/StateExampleTwo";
 import './App.css';
 
 function App() {
 
   return (
     <> 
+    <ToggleText />
     <Counter />
    <Welcome name="Saranya" />
 
