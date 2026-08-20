@@ -4,12 +4,14 @@ import phone from "./assets/Samsung.jpg";
 import ButtonDemo, { } from "./components/p3"; 
 import Counter from "./components/StateExampleOne";
 import ToggleText from "./components/StateExampleTwo";
+import NameInput from "./components/StateExampleThree"
 import './App.css';
 
 function App() {
 
   return (
     <> 
+    <NameInput />
     <ToggleText />
     <Counter />
    <Welcome name="Saranya" />
